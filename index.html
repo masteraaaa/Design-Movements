@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Design Movements Timeline</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Design Movements Timeline</h1>
+    </div>
+
+    <div class="timeline">
+        <div class="carousel carousel-main" data-flickity='{"pageDots": false}'>
+            <!-- Add your timeline items here -->
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1650</span></time>
+                <div class="img-wrapper"><img src="gothicchurch.jpg" alt="Gothic Church"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1837</span></time>
+                <div class="img-wrapper"><img src="vict.jfif" alt="Gothic Church"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1853"><span>1853</span></time>
+                <div class="img-wrapper"><img src="cup but better.jpg" alt="Arts_craft"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1917</span></time>
+                <div class="img-wrapper"><img src="destijltable.jpg" alt="Gothic Church"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1919</span></time>
+                <div class="img-wrapper"><img src="chair.jpg" alt="Gothic Church"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1920</span></time>
+                <div class="img-wrapper"><img src="table.jpg" alt="Gothic Church"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1924</span></time>
+                <div class="img-wrapper"><img src="ok1.PNG" alt="Gothic Church"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1950</span></time>
+                <div class="img-wrapper"><img src="swiss-style-shape-header.png" alt="Gothic Church"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1966</span></time>
+                <div class="img-wrapper"><img src="1966.jfif" alt="Gothic Church"></div>
+            </div>
+            <div class="carousel-cell">
+                <time datetime="1700"><span>1981</span></time>
+                <div class="img-wrapper"><img src="memphis.jpg" alt="Gothic Church"></div>
+            </div>
+
+            <!-- Add more slides as needed -->
+        </div>
+    </div>
+
+    <div class="timeline-desc">
+        
+            
+            
+        <div id="scroll-to-top-button" class="hidden">
+            <button onclick="scrollToTop()">Scroll to Top</button>
+        </div>
+		<div class="paragraph">
+			<p></p>
+			<img src="gothicskg.PNG" alt="Design from 1700">
+		</div>
+        <div class="paragraph">
+			<p></p>
+			<img src="victroy.PNG" alt="Design from 1700">
+            <img src="vict window.PNG" alt="Design from 1700">
+            <img src="victorian lighting.PNG" alt="Design from 1700">
+            
+		</div>
+		<div class="paragraph">
+			<p></p>
+			<img src="Arts and Craft.PNG" alt="Design from 1700">
+			<img src="arts 2.PNG" alt="Design from 1700">
+			<img src="arts 3.PNG" alt="Design from 1700">
+			<img src="arts 4.PNG" alt="Design from 1700">
+		</div>
+        <div class="paragraph">
+			<p></p>
+			<img src="destiji.PNG" alt="Design from 1700">
+            <img src="desijl.PNG" alt="Design from 1700">
+		</div>
+		<div class="paragraph">
+			<p></p>
+			<img src="bauhaus.PNG" alt="Design from 1700">
+		</div>
+		<div class="paragraph">
+			<p></p>
+			<img src="Art Deco.PNG" alt="Design from 1700">
+		</div>
+        <div class="paragraph">
+			<p></p>
+			<img src="Modernism.PNG" alt="Design from 1700">
+            <img src="modern2.PNG" alt="Design from 1700">
+		</div>
+        <div class="paragraph">
+			<p></p>
+			<img src="international graphic.PNG" alt="Design from 1700">
+            <img src="Graphic.PNG" alt="Design from 1700">
+            <img src="graph.PNG" alt="Design from 1700">
+		</div>
+        <div class="paragraph">
+			<p></p>
+			<img src="physcadelic graphic.PNG" alt="Design from 1700">
+		</div>
+        <div class="paragraph">
+			<p></p>
+			<img src="pres last.PNG" alt="Design from 1700">
+		</div>
+        
+            <h3>Bibliography</h3>
+			<p>https://www.youtube.com/playlist?list=PL10D22388A30A8DBC 
+                https://www.onlinedesignteacher.com/2016/05/graphic-design-timeline.html 
+                https://visualartsdepartment.wordpress.com/kitsch/ 
+                https://graphics-pro.com/education/exploring-the-victorian-graphic-style/ 
+                https://99designs.com/blog/design-history-movements/tripping-history-psychedelic-design/#:~:text=The%20history%20of%20psychedelic%20design%20is%20of%20course%20vast%3A%20it,1960s%20and%20the%20mid%201970s. 
+                https://en.wikipedia.org/wiki/International_Typographic_Style#:~:text=Traditionally%2C%20the%20term%20%E2%80%9CInternational%20Typographic,graphic%20systems%20of%20this%20period
+                https://www.rockefellercenter.com/art/wisdom/ 
+                https://www.britannica.com/art/Art-Deco </p>
+			
+		
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"></script>
+<script>
+    // Function to scroll to the top of the page
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    // Show the button when the user scrolls down 200 pixels
+    window.addEventListener('scroll', function() {
+        var button = document.getElementById('scroll-to-top-button');
+        if (window.scrollY >= 200) {
+            button.style.display = 'block';
+        } else {
+            button.style.display = 'none';
+        }
+    });
+</script>s
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize Flickity carousel
+        var flkty = new Flickity('.carousel-main', {
+            // Options if needed
+            pageDots: false
+        });
+
+        // Get all timeline cells
+        var timelineCells = document.querySelectorAll('.carousel-cell');
+
+        // Add click event listeners to timeline cells
+        timelineCells.forEach(function(cell, index) {
+            cell.addEventListener('click', function() {
+                // Scroll to the corresponding paragraph
+                var paragraphs = document.querySelectorAll('.paragraph p');
+                if (index < paragraphs.length) {
+                    paragraphs[index].scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+    
+    });
+</script>
+</body>
+</html>
