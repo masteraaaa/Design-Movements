@@ -45,14 +45,14 @@ body {
     text-align: center;
 }
 .paragraph p {
-    background-color: #87F6FF;
+    background-color: #000000;
 }
 /* Add some spacing between images if needed */
 .paragraph img {
     margin: 10px; /* You can adjust the margin value to control spacing between images */
 }
 .paragraph {
-    background-color: #87F6FF;
+    background-color: #000000;
 }
 #scroll-to-top-button {
     position: fixed;
@@ -333,7 +333,7 @@ p {
 	width: 100%;
 	height: auto;
 	position: relative;
-	background: #87F6FF; /* Set the background color to #87F6FF */
+	background: #000000; /* Set the background color to #87F6FF */
 }
 		
 
@@ -385,6 +385,6 @@ p {
 	display: none;
 }
 p {
-    background-color: #87F6FF; /* Change this to your desired background color */
+    background-color: #000000; /* Change this to your desired background color */
     /* Add other styles as needed */
 }
